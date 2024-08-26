@@ -7,7 +7,8 @@ Documentação do Sistema de Estacionamento
 
 ## Vídeo Explicativo
 
-![Vídeo Explicativo](video/pre.mp4)
+Você pode assistir ao vídeo explicativo [aqui](video/pre.mp4).
+
 
 
 Visão Geral
