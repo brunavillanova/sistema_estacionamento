@@ -49,6 +49,16 @@ Estrutura do Projeto
         Remoção de Veículos: Remove veículos do localStorage e calcula o tempo total de permanência.
         Renderização da Tabela: Atualiza a tabela com os veículos cadastrados.
 
+## Compilando TypeScript
+
+Para compilar arquivos TypeScript sem precisar instalar o TypeScript globalmente, você pode usar o seguinte comando com `npx`:
+
+
+npx -p typescript tsc
+
+
+##########################################################################
+
 Como Usar
 
     Abrir a Aplicação: Acesse o arquivo index.html em um navegador web.
