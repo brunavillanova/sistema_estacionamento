@@ -1,0 +1,110 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a8a8a8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho e foto de capa */
+header {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+header .capa {
+    width: 100%;
+    max-width: 500px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+    
+}
+
+/* Estilo para o contêiner de entrada e botão */
+input, button {
+    margin-bottom: 10px;
+}
+
+
+/* Estilo para campos de entrada */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra para melhorar a visibilidade */
+    font-size: 16px; /* Ajusta o tamanho da fonte para melhor legibilidade */
+   
+
+    
+   
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo para o botão ao passar o mouse */
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para as células da tabela */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para a linha da tabela ao passar o mouse */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para o botão de exclusão */
+button.delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilo para o botão de exclusão ao passar o mouse */
+button.delete:hover {
+    background-color: #c82333;
+}
