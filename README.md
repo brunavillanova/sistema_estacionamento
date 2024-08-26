@@ -4,6 +4,9 @@ Documentação do Sistema de Estacionamento
 Visão Geral
 
 O Sistema de Estacionamento é uma aplicação web desenvolvida para gerenciar o cadastro e controle de veículos em um estacionamento. A aplicação permite o registro de veículos com informações básicas, visualização da lista de veículos cadastrados e remoção de veículos do sistema. As informações dos veículos são armazenadas no localStorage do navegador, garantindo persistência dos dados mesmo após o fechamento do navegador.
+
+
+
 Funcionalidades
 
     Cadastro de Veículos: Permite adicionar um novo veículo informando o nome e a placa. O horário de entrada é registrado automaticamente.
